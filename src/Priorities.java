@@ -8,7 +8,7 @@ public class Priorities {
     Bu projede öncelikler bulunduğu için PriortiyQueue kullanılır.
     */
 
-    PriorityQueue<Student> studentPriorityQueue = new PriorityQueue<>(
+    PriorityQueue<Student> studentPriorityQueue = new PriorityQueue<Student>(
             Comparator.comparing(Student::getCgpa).reversed()
                     .thenComparing(Student::getName)
                     .thenComparing(Student::getId));
