@@ -4,12 +4,10 @@ import java.util.Scanner;
 
 public class Main {
     //Main class'ını Hackerrank'den aldım.
-   // private final static Scanner scan = new Scanner(System.in);   // veri almamız için Scanner nesnesini oluşturulur.
-    //private final static Priorities priorities = new Priorities();
+    private final static Scanner scan = new Scanner(System.in);   // veri almamız için Scanner nesnesini oluşturulur.
+    private final static Priorities priorities = new Priorities();
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        Priorities priorities = new Priorities();
         int totalEvents = Integer.parseInt(scan.nextLine());   //toplam olay sayısı kullanıcıdan alınır.
         List<String> events = new ArrayList<>();
 

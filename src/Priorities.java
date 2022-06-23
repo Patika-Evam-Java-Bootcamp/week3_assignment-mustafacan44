@@ -20,7 +20,7 @@ public class Priorities {
 
             } else if(event.split("\\s")[0].equals("ENTER")){
 
-                String[] data = event.split("\\s"); // Burada metin boşlulara göre bölünür
+                String[] data = event.split("\\s"); // Burada metin boşluklara göre bölünür.
 
                 studentPriorityQueue.add(new Student(Integer.parseInt(data[3]), data[1], Double.parseDouble(data[2])));
 
